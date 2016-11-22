@@ -23,10 +23,12 @@ TEXT_TYPE = "text"
 MULTILINE_TYPE = "multiline"
 DATE_TYPE = "date"
 URL_TYPE = "url"
+RICHTEXT_TYPE = "richtext"
 
 TYPES_CHOICES = (
     (TEXT_TYPE, _("Text")),
     (MULTILINE_TYPE, _("Multi-Line Text")),
     (DATE_TYPE, _("Date")),
-    (URL_TYPE, _("Url"))
+    (URL_TYPE, _("Url")),
+    (RICHTEXT_TYPE, _("Rich text"))
 )
